@@ -8,9 +8,9 @@ distinguished_name = dn
 [dn]
 C = UK
 L = Olathe
-O = DRS
-OU = DRS Department
-emailAddress = micseltene.dev@gmail.com
+O = Dev
+OU = Dev Department
+emailAddress = youremail@yourdomain.com
 CN = localhost
 
 [v3_req]
