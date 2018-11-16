@@ -6,12 +6,11 @@ x509_extensions = v3_req
 distinguished_name = dn
 
 [dn]
-C = US
-ST = KS
+C = UK
 L = Olathe
-O = IT
-OU = IT Department
-emailAddress = webmaster@example.com
+O = DRS
+OU = DRS Department
+emailAddress = micseltene.dev@gmail.com
 CN = localhost
 
 [v3_req]
