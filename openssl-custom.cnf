@@ -9,13 +9,13 @@ distinguished_name = dn
 C = UK
 L = Olathe
 O = Dev
-OU = Dev Department
-emailAddress = youremail@yourdomain.com
-CN = localhost
+OU = YOURDOMAIN
+emailAddress = micseltene.dev@gmail.com
+CN = yourdomain
 
 [v3_req]
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1 = *.localhost
-DNS.2 = localhost
+DNS.1 = *.yourdomain
+DNS.2 = yourdomain

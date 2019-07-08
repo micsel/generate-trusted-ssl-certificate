@@ -24,3 +24,10 @@ openssl req \
     -config ./openssl-custom.cnf \
     -sha256 \
     -days 365
+
+openssl pkcs12 \
+    -export \
+    -out certificates/certificate.pfx \
+    -inkey certificates/server.key \
+    -name "yourdomain" \
+    -in certificates/server.crt 
